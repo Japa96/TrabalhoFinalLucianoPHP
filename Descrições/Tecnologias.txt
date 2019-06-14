@@ -1,0 +1,13 @@
+Realizei o projeto com a utilização do bootstrap-3.3.7-dist para 
+fazer a criação do front-end do meu projeto, fazendo com que o 
+mesmo fique de forma responsiva, e que ajude na criação dos layouts
+
+Utilizei também o Json no meu projeto, que nada mais é do que um
+formato leve para intercâmbio de dados entre sistemas, sendo um 
+subconjunto do JavaScript.
+
+Utilizei o CSSS para realizar toda a estilização do meu sistema, 
+como cores, imagens, entre outros.
+
+Utilizei algumas apis que encontrei do jquery como por exemplo: 
+https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js
