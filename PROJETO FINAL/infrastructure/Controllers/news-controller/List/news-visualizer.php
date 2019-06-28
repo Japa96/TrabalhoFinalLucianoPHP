@@ -16,7 +16,7 @@
             include '../Controllers/date-controller/date-controller.php';
 
             	function List_News($DBConn){
-            		$sql = "SELECT Id, Descricao, Data_Postagem, titulo from tbnews where (Data_Postagem between Data_visualizacao and Data_remocao) order by id desc";
+                    $sql = "SELECT Id, Descricao, Data_Postagem, titulo from tbnews where (Data_visualizacao <= CURRENT_TIMESTAMP AND Data_remocao > CURRENT_TIMESTAMP) order by id desc";
             		$resultado = mysqli_query($DBConn, $sql);
                     echo "<b id='align'>NOTICIAS</b>";
             		while($row = mysqli_fetch_array($resultado)){                       

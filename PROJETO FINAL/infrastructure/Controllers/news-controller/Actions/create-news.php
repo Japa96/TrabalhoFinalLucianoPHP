@@ -75,11 +75,11 @@
                   </div>
                   <div class="form-group">
                     <label>Data que ficara visivel</label>
-                    <input type="date" class="form-control" placeholder="0000-00-00" name='datavisu' required="required">
+                    <input type="datetime-local" class="form-control" placeholder="0000-00-00" name='datavisu' required="required">
                   </div>
                   <div class="form-group">
                     <label>Data de expiração</label>
-                    <input type="date" class="form-control" placeholder="0000-00-00" name='dataremo' required="required">
+                    <input type="datetime-local" class="form-control" placeholder="0000-00-00" name='dataremo' required="required">
                   </div>
 				  <button type="submit" class="btn btn-default">Registrar</button>
 	        </form>
